@@ -27,7 +27,7 @@ client = genai.Client()
 prompt = "本日のプロ野球の試合予想を教えてください。さらに、予想の理由も教えてください。"
 
 response_stream = client.models.generate_content_stream(
-    model="gemini-2.5-flash",
+    model="gemini-3.5-flash",
     contents=prompt,
     config=types.GenerateContentConfig(
         response_mime_type="application/json",

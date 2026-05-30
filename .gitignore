@@ -1,2 +1,4 @@
 .venv
 launch.json
+phase_embeddings.json
+__pycache__/
